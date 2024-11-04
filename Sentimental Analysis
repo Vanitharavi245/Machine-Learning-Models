@@ -1,0 +1,10 @@
+Project Overview: This project performs sentiment analysis on McDonald's customer reviews to understand customer feedback and improve service quality. Using VADER( Valence Aware Dictionary and sEntiment Reasoner) sentiment analysis tool. 
+I analyzed reviews to categorize them as positive,neutral or negative. 
+The goal was to gain insights into customer opinions about McDonald's stores across different location and explore the factors that impact customer satisfaction.
+Objective: Identify McDonald's locations that received high postive sentiment scores for further business insights
+Tools and Libraries: Pands, matplotlib, seaborn, vadersentiment and VADER sentiment analysis used for classifying text into sentiment categories
+Data Descrioption : Reviewer_id, Store_name, Category, Store_address, Latitude and longitutde, Rating_count, Sentiment_score
+Methodology: a) Text analysis done with help of VADER sentiment analyzer to calculate a compound score for ach revie. b) sentiment classification : negative(sentiment score<0), Neutral (sentiment score b/w 0-0.5) , positive ( sentiment score >0.5). c) Data Aggregation was done by grouping the reviews by store address and insight extraction which focused on reviews with high sentiment score to identify locations with outstanding positive feedback
+Results: The overall average sentiment score was 0.1549 indicating generally positive feedback from customers  and identified top performing stores with high volume of positive review 
+Outcomes: Visualized sentiment distribution to understand the general sentiment trend. This project provides actionable insights into customer feedback for McDonald's store.The sentiment analysis can help them to understand customer expectation better and improves service quality across various location. 
+
